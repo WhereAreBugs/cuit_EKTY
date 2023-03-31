@@ -16,7 +16,7 @@ import time
 prefix = "http://ekty-cuit-edu-cn.webvpn.cuit.edu.cn:8118/#/pages/activity/studentQdqt?id="
 id = input("请输入活动ID: ")
 now_time = int(round(time.time() * 1000))
-now_time += 14400000  # 获取两小时之后的时间
+now_time += 7200000  # 获取两小时之后的时间
 url = prefix + id + "&timestamp=" + str(now_time)
 print("签到链接: " + url)
 print("有效期" + time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(now_time/1000)))
