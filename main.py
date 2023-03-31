@@ -5,20 +5,6 @@ import time
 # 登陆地址: http://ekty.cuit.edu.cn/#/pages/home/login
 # 登录API: http://ekty.cuit.edu.cn/api/login?sf_request_type=ajax
 
-# head: 请求头
-# OPTIONS /api/login?sf_request_type=ajax HTTP/1.1
-# Accept: */*
-# Accept-Encoding: gzip, deflate
-# Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
-# Access-Control-Request-Headers: content-type,sdp-app-session
-# Access-Control-Request-Method: POST
-# Host: ekt-cuit-edu-cn.webvpn.cuit.edu.cn:8118
-# Origin: http://ekty-cuit-edu-cn.webvpn.cuit.edu.cn:8118
-# Proxy-Connection: keep-alive
-# Referer: http://ekty-cuit-edu-cn.webvpn.cuit.edu.cn:8118/
-# Sec-Fetch-Mode: cors
-# User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
-
 # playload: 请求体
 # {
 #   "account": "",
